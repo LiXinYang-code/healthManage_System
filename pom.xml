@@ -82,13 +82,7 @@
 			<artifactId>lombok</artifactId>
 			<version>1.16.10</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<version>1.18.24</version>
-			<scope>provided</scope>
-		</dependency>
+
 
 		<!--阿里的数据源-->
 		<dependency>
