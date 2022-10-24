@@ -77,12 +77,13 @@
 		</dependency>
 
 		<!--使用注解在源码中不需要写一些通用的方法，但是在编译生成的字节码文件中会帮我们生成这些方法-->
+		<!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.16.10</version>
+			<version>1.18.24</version>
+			<scope>provided</scope>
 		</dependency>
-
 
 		<!--阿里的数据源-->
 		<dependency>
@@ -143,7 +144,6 @@
 			<version>1.18.10</version>
 			<scope>provided</scope>
 		</dependency>
-
 
 	</dependencies>
 
