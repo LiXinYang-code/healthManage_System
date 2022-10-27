@@ -14,6 +14,11 @@ import sun.misc.BASE64Encoder;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
+/**
+ * 对运动装备页面进行Controller层的编写，
+ * 实现对equipment服务层的调用，从而调用Mapper层进行与数据库的交互
+ */
+
 @RestController
 @RequestMapping("/equipment/")
 @CrossOrigin(origins="*",maxAge=3600)

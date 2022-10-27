@@ -6,11 +6,7 @@ import com.sports.service.RecipeGroupService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-/**
- * @Author：xuxiaobo
- * @Date:2020/10/28 10:41
- * 好好学习，天天向上
- */
+
 @RestController
 @RequestMapping("/recipegroup/")
 @CrossOrigin(origins="*",maxAge=3600)

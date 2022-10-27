@@ -21,17 +21,7 @@ public class DateTest {
 //        }
     }
 
-    /**
-     *
-     * @doc 获取日期间的日期
-     * @param start
-     *            开始日期
-     * @param end
-     *            结束日期
-     * @return List集合
-     * @author lzy
-     * @history 2017年10月17日 上午9:55:04 Create by 【lzy】
-     */
+
     private static List<Date> getBetweenDates(Date start, Date end) {
         List<Date> result = new ArrayList<Date>();
         Calendar tempStart = Calendar.getInstance();
@@ -49,15 +39,7 @@ public class DateTest {
         return result;
     }
 
-    /**
-     *
-     * @doc 日期转换星期几
-     * @param datetime
-     *            日期 例:2017-10-17
-     * @return String 例:星期二
-     * @author lzy
-     * @history 2017年10月17日 上午9:55:30 Create by 【lzy】
-     */
+
     public static Map dateToWeek(String datetime) {
         SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd");
         String[] weekDays = { "星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六" };
